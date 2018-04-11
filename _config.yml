@@ -11,9 +11,9 @@ title                    : "Daniel J. Saunders"
 title_separator          : "-"
 name                     : &name "Daniel J. Saunders"
 description              : &description "Computer science MS student at UMass Amherst."
-url                      : https://getorg-testacct.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://djsaunde.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "getorg-testacct.github.io"
+repository               : "djsaunde.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -79,7 +79,7 @@ analytics:
 # Site Author
 author:
   name             : "Daniel J. Saunders"
-  avatar           : "me_and_quinn.jpg"
+  avatar           : "images/me_and_quinn.jpg"
   bio              : "Computer science MS student at UMass Amherst"
   location         : "Amherst, MA"
   employer         : "BINDS Lab"
@@ -97,7 +97,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/daniel-saunders-64908154/"
+  linkedin         : "daniel-saunders-64908154"
   orcid            : 
   pinterest        :
   soundcloud       :
