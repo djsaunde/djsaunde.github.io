@@ -79,7 +79,7 @@ analytics:
 # Site Author
 author:
   name             : "Daniel J. Saunders"
-  avatar           : "images/me_and_quinn.jpg"
+  avatar           : "me_and_quinn.jpg"
   bio              : "Computer science MS student at UMass Amherst"
   location         : "Amherst, MA"
   employer         : "BINDS Lab"
