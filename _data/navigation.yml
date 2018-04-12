@@ -6,8 +6,5 @@ main:
   - title: "Talks"
     url: /talks/    
 
-  - title: "Portfolio"
-    url: /portfolio/
-        
   - title: "Blog"
     url: https://djsaunde.wordpress.com
