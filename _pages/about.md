@@ -19,7 +19,7 @@ Please check out my [CV](cv/cv.pdf) for more details, and feel free to send me a
 Fun facts:
 
 - I have a miniature Australian shepherd named [Quinn](images/quinn.jpg).
-- I have an Erd&ouml;s number of 2 (Path: Paul Erd&ouml;s -> Mikl&oacute;s Ruszink&oacute; -> Daniel Saunders).
+- I have an Erd&ouml;s number of 2 (path: Paul Erd&ouml;s -> Mikl&oacute;s Ruszink&oacute; -> Daniel Saunders).
 - I played snare drum in the UMass marching band from 2012 - 2015.
 
 News:
