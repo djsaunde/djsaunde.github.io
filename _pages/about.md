@@ -14,7 +14,7 @@ I am a second-year M.S. student at the [University of Massachusetts Amherst](htt
 
 I'm a research assistant in the [BINDS lab](http://binds.cs.umass.edu/), where we're focused on using spiking neural networks for machine learning. 
 
-Please check out my [CV](files/cv.pdf) for more details, and feel free to send me an [email](mailto:djsaunde@cs.umass.edu) if you'd like to talk.
+Please check out my [CV](cv/cv.pdf) for more details, and feel free to send me an [email](mailto:djsaunde@cs.umass.edu) if you'd like to talk.
 
 Fun facts:
 
