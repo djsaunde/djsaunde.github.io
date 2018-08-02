@@ -1,0 +1,199 @@
+\documentclass{article}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage[margin=1in]{geometry}%
+\usepackage{hyperref}%
+%
+\usepackage[sorting=none]{biblatex}%
+\addbibresource{books/read.bib,papers/read.bib}%
+\title{Reading List}%
+\author{Daniel Saunders}%
+\date{\today}%
+%
+\begin{document}%
+\normalsize%
+\maketitle%
+Note: Work in progress. Some dates before mid{-}July 2018 are approximate.%
+\section{Books}%
+\label{sec:Books}%
+\subsection{Read}%
+\label{subsec:Read}%
+\begin{itemize}%
+\item%
+\textit{Computer Age Statistical Inference}%
+\newline%
+Read date: 2018{-}07{-}01%
+\newline%
+\href{https://web.stanford.edu/\textasciitilde{}hastie/CASI/}{https://web.stanford.edu/\textasciitilde{}hastie/CASI/}%
+\newline%
+Synopsis: The history of the development of statistical methods and justification of those methods is divided into three periods: classic statistical inference, early computer{-}age methods, and 21st century topics. Each statistical method is discussed in terms of their frequentist, Bayesian, or Fisherian justification(s), and examples with real datasets are common throughout. The authors describe how the development of statistical algorithms is out{-}pacing their inferential justification thanks to powerful and cheap computation and the collection of massive, interesting datasets.%
+\item%
+\textit{Deep Learning}%
+\newline%
+Read date: 2018{-}06{-}01%
+\newline%
+\href{http://www.deeplearningbook.org/}{http://www.deeplearningbook.org/}%
+\newline%
+Synopsis: The nascent field of deep learning is described starting with machine learning basics, working through established deep learning concepts (multilayer networks, convolutional networks, recurrent networks, training strategies, and applications), and culminating in an in{-}depth discussion of research topics. Basic calculus, linear algebra, probability, and statistics are all that's needed to understand most of the material.%
+\item%
+\textit{The Computer and the Brain}%
+\newline%
+Read date: 2018{-}05{-}01%
+\newline%
+\href{https://dl.acm.org/citation.cfm?id=578873}{https://dl.acm.org/citation.cfm?id=578873}%
+\newline%
+Synopsis: The building blocks and working mechansims of computers and biological brains are compared and contrasted. Von Neumann attempts to explain some of the workings of the nervous system from the point of view of a mathematician.%
+\item%
+\textit{Your Brain is a Time Machine}%
+\newline%
+Read date: 2018{-}04{-}01%
+\newline%
+\href{http://books.wwnorton.com/books/Your{-}Brain{-}Is{-}a{-}Time{-}Machine/}{http://books.wwnorton.com/books/Your{-}Brain{-}Is{-}a{-}Time{-}Machine/}%
+\newline%
+Synopsis: It is argued that the human brain is a complex system that not only tells time, but creates it, constructing our sense of chronological movement and enabling mental time travel; i.e., simulations of past and future events. These functions were and are essential for the evolution of the human race, allowing us to anticipate the need for tools and farming.%
+\end{itemize}
+
+%
+\subsection{Reading}%
+\label{subsec:Reading}%
+\begin{itemize}%
+\item%
+\textit{Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems}%
+\newline%
+\href{https://mitpress.mit.edu/books/theoretical{-}neuroscience}{https://mitpress.mit.edu/books/theoretical{-}neuroscience}%
+\item%
+\textit{Quantum Computation and Quantum Information: 10th Anniversary Edition}%
+\newline%
+\href{https://dl.acm.org/citation.cfm?id=1972505}{https://dl.acm.org/citation.cfm?id=1972505}%
+\item%
+\textit{The Elements of Statistical Learning}%
+\newline%
+\href{https://www.springer.com/us/book/9780387848570}{https://www.springer.com/us/book/9780387848570}%
+\end{itemize}
+
+%
+\section{Papers}%
+\label{sec:Papers}%
+\subsection{Read}%
+\label{subsec:Read}%
+\begin{itemize}%
+\item%
+\textit{Task{-}Driven Convolutional Recurrent Models of the Visual System}%
+\newline%
+Read date: 2018{-}07{-}19%
+\newline%
+\href{https://arxiv.org/abs/1807.00053}{https://arxiv.org/abs/1807.00053}%
+\newline%
+Synopsis: While convolutional neural networks are SOTA for object classification and accurately model time{-}averaged visual system neural responses, they do not have two important features of biological visual systems: (1) local recurrence within cortical areas, and (2) long{-}range feedback from downstream to upstream areas. Standard vanilla RNN and LSTM do not perform well in deep CNNs on ImageNET, but custom cells using bypassing and gating do. Automated architecture search is used to identify new local recurrent cells and long{-}range connections for the ImageNET task, which well{-}expalin the neural dynamics in the primate visual system.%
+\item%
+\textit{Putting a bug in ML: The moth olfactory network learns to read MNIST}%
+\newline%
+Read date: 2018{-}07{-}12%
+\newline%
+\href{https://arxiv.org/abs/1802.05405}{https://arxiv.org/abs/1802.05405}%
+\newline%
+Synopsis: The moth olfactory network model of "Biological Mechanisms for Learning: A Computational Model..." is used to classify the MNIST digits using a very small number of samples per digit class (1{-}20).%
+\item%
+\textit{Relational inductive biases, deep learning, and graph networks}%
+\newline%
+Read date: 2018{-}06{-}15%
+\newline%
+\href{https://arxiv.org/abs/1806.01261}{https://arxiv.org/abs/1806.01261}%
+\newline%
+Synopsis: Many defining characteristics of human intelligence remain out of the reach of current popular artificial intelligence techiques; in particular, generalizing beyond one's experiences. It is argued that combinatorial generalization should be a priority for AI research to achieve human{-}level abilities, and structured representations and computations over these are key to realizing this. The authors reject the choice between "hand{-}engineering" and "end{-}to{-}end" learning, instead advocating an approach benefiting from their complementary strengths. They show how relational inductive biases can be used in deep learning to facilitate learning about entities, relations, and compositions thereof. The graph network is presented, generalizing and extending previous approaches to machine learning on graphs.%
+\item%
+\textit{SuperSpike: Supervised Learning in Multilayer Spiking Neural Networks}%
+\newline%
+Read date: 2018{-}06{-}08%
+\newline%
+\href{https://www.mitpressjournals.org/doi/abs/10.1162/neco\_a\_01086}{https://www.mitpressjournals.org/doi/abs/10.1162/neco\_a\_01086}%
+\newline%
+Synopsis: This paper provides a possible answer to the question: How do neural circuits learn and compute in vivo, and how can such abilities be implemented in artificial spiking circuits in silico? The problem of supervised learning in temporally coded multilayer spiking networks is studied. A surrogate gradient approach is used to derive the SuperSpike learning rule, capable of training mutlilayer networks of IF neurons to do nonlinear computations on spatiotemporal inputs. The performance of the learning rule under different credit assignment strategies for propagating error signals to hidden units is compared (uniform, symmetric, and random feedback).%
+\item%
+\textit{Differentiable plasticity: training plastic neural networks with backpropagation}%
+\newline%
+Read date: 2018{-}05{-}17%
+\newline%
+\href{https://arxiv.org/abs/1804.02464}{https://arxiv.org/abs/1804.02464}%
+\newline%
+Synopsis: A simple solution to the problem of meta{-}learning is proposed, taking inspiration from learning in biological brains: synaptic plasticity (just like connection weights) can be optimized via gradient descent in large recurrent networks with Hebbian plasticity. The meta{-}learning technique is demonstrated on three simple tasks: memorizing and reconstructing high{-}dimensional natural images, the Omniglot task (a generic one{-}shot learning task), and a maze exploration reinforcement learning problem.%
+\item%
+\textit{Training Deep Spiking Neural Networks Using Backpropagation}%
+\newline%
+Read date: 2018{-}05{-}01%
+\newline%
+\href{https://www.frontiersin.org/articles/10.3389/fnins.2016.00508/full}{https://www.frontiersin.org/articles/10.3389/fnins.2016.00508/full}%
+\newline%
+Synopsis: Spiking neural networks may improve the latency and energy efficiency of deep neural networks using event{-}based computation, though their training is difficult due to their non{-}differentiability. The authors treat neuron membrane potentials as differentiable signals, where spike time discontinuities are considered noise, effectively enabling backpropagation on spike signals and membrane potentials.  The technique is demonstrated on the MNIST and N{-}MNIST (neuromorphic) datasets, where it is shown that equivalent accuracy can be achieved with much less computation.%
+\item%
+\textit{Biological Mechanisms for Learning: A Computational Model of Olfactory Learning in the Manduca sexta Moth, with Applications to Neural Nets}%
+\newline%
+Read date: 2018{-}04{-}15%
+\newline%
+\href{https://arxiv.org/abs/1802.02678}{https://arxiv.org/abs/1802.02678}%
+\newline%
+Synopsis: A model of the insect olfactory system (in particular, the moth) is built using integrate{-}and{-}fire neurons is tuned to reproduce experimental in vivo firing rate data. The model is trained to learn new "odors" using very few data samples.%
+\item%
+\textit{Reinforcement Learning Through Modulation of Spike{-}Timing{-}Dependent Synaptic Plasticity}%
+\newline%
+Read date: 2018{-}04{-}15%
+\newline%
+\href{https://ieeexplore.ieee.org/document/6796089/}{https://ieeexplore.ieee.org/document/6796089/}%
+\newline%
+Synopsis: Modulation of STDP by a global reward signal leads to reinforcement learning in spiking neural networks. Learning rules are analytically derived by applying a reinforcement learning algorithm to a stochatic response model of spiking neurons. Two simplified reward{-}modulated learning rules are shown to be effective in simulations of IF neuron networks. The first rule is a direct extension of standard STDP (modulated STDP), and the second involves an eligibility trace for each synapse that tracks a decaying memory of pre{-} and post{-}synaptic spiking activity (modulated STDP with eligibility trace).%
+\item%
+\textit{A Model for Real{-}Time Computation in Generic Neural Microcircuits}%
+\newline%
+Read date: 2018{-}04{-}01%
+\newline%
+\href{https://dl.acm.org/citation.cfm?id=2968647}{https://dl.acm.org/citation.cfm?id=2968647}%
+\newline%
+Synopsis: Liquid state machines (LSMs) are introduced and are motivated from the point of view of the "anytime computing" / "real{-}time computing" paradigms inspired by neural computation. In particular, a simulation of a small network of heterogeneous LIF neurons are used to "filter" input signals u(t) into a liquid state x(t), and a small set of linear read{-}out filters are optimized to output a target time series y(t). A non{-}Turing (that is, continuous in time and real{-}valued) theory of computation is developed with the LSM, with the result that a sufficiently large / complex "found" or "evolved" generic circuit will tend to have sufficient computational power for any given real{-}valued, parallel real{-}time computing task. An LSM with a small generic neural circuit as the computation reservoir is shown to achieve SOTA results on a dataset of 500 (300 train / 200 test) audio examples of the spoken digits 0{-}9, with several desirable properties (any{-}time outputs).%
+\item%
+\textit{Spiking allows neurons to estimate their causal effect}%
+\newline%
+Read date: 2018{-}04{-}01%
+\newline%
+\href{https://www.biorxiv.org/content/early/2018/01/25/253351}{https://www.biorxiv.org/content/early/2018/01/25/253351}%
+\newline%
+Synopsis: Regression discontinuity design (a popular causal technique from economics) is used in a new synaptic learning rule such that neurons may estimate their causal effect on task performance.%
+\item%
+\textit{Unsupervised Feature Learning With Winner{-}Takes{-}All Based STDP}%
+\newline%
+Read date: 2018{-}04{-}01%
+\newline%
+\href{https://www.frontiersin.org/articles/10.3389/fncom.2018.00024/full}{https://www.frontiersin.org/articles/10.3389/fncom.2018.00024/full}%
+\newline%
+Synopsis: Spike{-}timing{-}dependent plasticity (STDP) is used to learn image features from the MNIST, ETH80, CIFAR{-}10, and STL{-}10 datasets, which are subsequently used for classification. The authors show an equivalence between rank order coding LIF neurons and ReLUs when applied to non{-}temporal data. A binary STDP rule is derived and used to perform batched training on image data. A winner{-}takes{-}all (WTA) mechanism selects the most relevant patches to learn from among the spatial dimensions, and a feature{-}wise normalization is used to maintain homeostatic activity. Ultimately, their networks are able to learn multi{-}layer convolutional sparse features.%
+\item%
+\textit{Bayesian GAN}%
+\newline%
+Read date: 2018{-}03{-}15%
+\newline%
+\href{https://arxiv.org/abs/1705.09558}{https://arxiv.org/abs/1705.09558}%
+\newline%
+Synopsis: A practical Bayesian formulation for unsupervised and semi{-}supervised learning with GANs is developed. Stochastic gradient Hamiltonian Monte Carlo is used to marginalize the weights of the generator and discriminator networks. This approach removes the need for the typical GAN training interventions such as feature matching or minibatch discrimination. It is also able to avoid mode{-}collapse, produces interpretable and diverse generated samples, and achieves SOTA quantitative results for semi{-}supervised learning on the SVHN, CelebA, and CIFAR{-}10 datasets.%
+\item%
+\textit{Biologicially inspired load balancing mechanism in neocortical competitive learning}%
+\newline%
+Read date: 2018{-}03{-}01%
+\newline%
+\href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3949291/}{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3949291/}%
+\newline%
+Synopsis: The authors present a simulation of a population of 1000 LIF neurons with layer 5 Martinotti cells (MC) with delayed self{-}inhibition and layer 5 large basket cell with local Mexican hat{-}shaped inhibition, as well as STDP learning of the synapses which are connected with distance{-}dependent randomness between neurons. Input to the network are random bit vectors. The results show that the network is able to organize into a few large (or many small and overlapping) clusters, which compete between themselves yet synchronize within themselves. Various kinds of cluster analysis are applied to the connectivity and activity of the trained network.%
+\item%
+\textit{Unsupervised learning of digit recognition using spike{-}timing{-}dependent plasticity}%
+\newline%
+Read date: 2017{-}03{-}01%
+\newline%
+\href{https://www.frontiersin.org/articles/10.3389/fncom.2015.00099/full\#}{https://www.frontiersin.org/articles/10.3389/fncom.2015.00099/full\#}%
+\newline%
+Synopsis: A spiking neural network model is described and used to classify the MNIST handwritten digits. Spike{-}timing{-}dependent plasticity is used to update synapse weights, inhibition is used to create competition between neurons filtering the input, and an adaptive, homeostatic mechanism is used to adjust sensitivity to different input intensities.%
+\end{itemize}
+
+%
+\printbibliography%
+\end{document}
