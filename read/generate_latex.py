@@ -14,8 +14,6 @@ geometry_options = {'margin': '1in'}
 
 document = Document('.', geometry_options=geometry_options)
 document.packages.append(Package('hyperref'))
-document.preamble.append(Package('biblatex', options=['sorting=none']))
-document.preamble.append(Command('addbibresource', arguments=['books/read.bib,papers/read.bib']))
 
 document.preamble.append(Command('title', 'Reading List'))
 document.preamble.append(Command('author', 'Daniel Saunders'))
@@ -37,7 +35,6 @@ def create_read_section(document, medium):
 				title = row.Title
 				read = row.Read
 				link = row.Link
-				bibtex = row['BibTex Identifier']
 				synopsis = row.Synopsis
 
 				itemize.add_item(italic(title))
@@ -62,7 +59,6 @@ def create_reading_section(document, medium):
 			for _, row in df.iterrows():
 				title = row.Title
 				link = row.Link
-				bibtex = row['BibTex Identifier']
 
 				itemize.add_item(italic(title))
 				itemize.append(NewLine())
@@ -80,6 +76,5 @@ for medium in ['books', 'papers']:
 		elif medium == 'papers':
 			create_read_section(document, medium)
 
-document.append(Command('printbibliography'))
 document.generate_tex('read')
 document.generate_pdf('read', compiler='pdflatex', clean_tex=False)
