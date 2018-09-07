@@ -8,8 +8,6 @@ author_profile: true
 {% include base_path %}
 
 
-# Notes
-
 Here, I keep pointers to notes on things I'm reading or working on in the BINDS lab.
 
 **Note**: My notes can be overly exhaustive. Please bear with me.
