@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.26)  7 SEP 2018 16:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.26)  7 SEP 2018 17:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -689,19 +689,26 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 81.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 81.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
  (./schultz_2016.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 81.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 81.
-Package rerunfilecheck Info: File `schultz_2016.out' has not changed.
-(rerunfilecheck)             Checksum: 17FDCB105E0D8000D42B3E76B375378B;585.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 81.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
+
+
+Package rerunfilecheck Warning: File `schultz_2016.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `schultz_2016.out':
+(rerunfilecheck)             Before: 17FDCB105E0D8000D42B3E76B375378B;585
+(rerunfilecheck)             After:  933B56342B088F44C9D4BE6435A29B56;673.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 83.
  ) 
 Here is how much of TeX's memory you used:
- 6484 strings out of 494953
- 92322 string characters out of 6180977
+ 6485 strings out of 494953
+ 92336 string characters out of 6180977
  186253 words of memory out of 5000000
  9681 multiletter control sequences out of 15000+600000
  9842 words of font info for 37 fonts, out of 8000000 for 9000
@@ -713,10 +720,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on schultz_2016.pdf (3 pages, 84678 bytes).
+Output written on schultz_2016.pdf (3 pages, 84899 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
+ 85 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
