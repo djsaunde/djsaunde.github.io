@@ -100,4 +100,41 @@ The initial dopamine activation might provide a temporal advantage by inducing p
 
 It is suggested the the initial dopamine response component affords a gain in speed and processing without substantially compromising action accuracy, which supports the function of the phasic dopamine reward signal.
 
+\section{The main component: valuation}
+
+The dopamine reward prediction-error response evolves from unselective stimulus detection into increasingly specific ID / valuation of stimulus. The latter component defines the function of the phasic dopamine response / reflect evolving neural processing needed to valuate the stimulus. Higher-than-predicted rewards induce brief dopamine increase, lower-than-predicted rewards induce decrease, and accurately predicted rewards don't change the activity. These responses constitute a bio implementation of the error term for RL according to the \textit{Rescorla-Wagner model} and \textit{temporal difference learning models}.
+
+\subsection{Subjective reward value}
+
+Value is a theoretical construct used to explain learning + decision making; construction of reward value involves brain mechanisms mediated by dopamine neurons.
+
+Though dopamine responses increase w/ expected reward value, it's unclear whether dopamine neurons code for objective / subjective reward value. Comparison between rewards that are objectively equal show subjective value; preferences for risky vs. safe rewards w/ identical volume suggest increased subjective value. Another way to estimate: choose b/w reward in question and a reference reward. Dopamine neurons show higher activation due to preferred reward; activity correlates w/ indiff. amounts in choices b/w risky / safe rewards, indicating neurons code subjective rather than objective reward value.
+
+Rewards lose subjective value after delays, though physically unchaged. Although initial comp. of dopamine response to a stim. that predicts a delayed reward stays constant, second comp. decreases as delay increases.
+
+\subsection{Utility}
+
+Econ. utility provides a constrained + principled def. of subjective value of rewards. Utility has the important potential to provide an internal / private metric of subjective reward value to individual decision makers. Subjective value derived from choice prefs. / indiff. provides a measure in physical units, but doesn't tell us how much a physical unit of ref. reward is privately worth to decision makers.
+
+A private / internal metric of reward value would help to establish a neural reward function. This would relate the freq. of action potentials to internal reward value that matters to the decision maker. The number of APs after a stim. would quantify how much the reward is valued by neurons -> how much it's worth privately.
+
+Econ. suggests numeric estims. of utility can be obtained experimentally in choices involving risky rewards. To obtain util. functions, we can use structured choices b/w gambles and variable safe rewards, and estim. ``certainty equivalents'', the amount of safe reward needed for the agent to select the reward as often as the gamble. The CEs are used to construct util. fns. A monkey's / human's choices reveal nonlinear utility / neural value fns. It's thus possible to estim. numeric econ. util. fns. that are suitable for corrs. w/ numeric neural reward responses.
+
+Dopamine neurons show initial / uniform detection response to reward onset, unaffected by reward amount, and the 2nd response comp. increases monotonically w/ final amount -> signals value. The 2nd comp. increases nonlinearly with reward amount; gradually -> steeply -> gradually. So, the fully-evolved dopamine response corrs. w/ util.
+
+To determine whether dopamine response codes for util., tests should use well-def.'d gambles that sat. conds. for util., rather than unpredicted rewards where risk is poorly def.'d.
+
+Since the full dopamine reward prediction-error response codes for util., the phasic dopamine reward pred.-error response can be spec.'d as a util. pred.-error signal. Dopamine responses seem to repr. a phys. corr. for util.
+
+\section{Downstream influences}
+\subsection{Correct behavior based on late component}
+
+The 2nd response comp. persists through behavior until reward is received, as revealed by graded positive pred.-error response to reward deliv. This response is large w/ intermediate reward prob. -> gens. intermed. value pred., decreases progressively when reward-prob. predictions lead to less-surprising rewards. Despite the transient / inaccurate 1st dopamine comp., the quickly following 2nd comp. allows neurons to distinguish rewards from non-rewards early enough to change behav. reactions.
+
+The two-comp. mech. operates on a 10ms timescale that reqs. precise processing. Any changes in temp. structure of phasic dopamine response might distub the valuation comp. -> lead to impaired post-synpatic processing of reward info.
+
+\subsection{Updating predictions and decision variables}
+
+
+
 \end{document}
