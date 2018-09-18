@@ -24,6 +24,7 @@ Fun facts:
 
 News:
 
-- (6/6/18) We released a [pre-print](https://arxiv.org/abs/1806.01423) on our spiking neural networks simulation software!
+- (9/17/18) I'll be attending the first inagural [PyTorch Developers Conference](https://pytorch.fbreg.com/) in San Francisco on October 2nd to present a poster on BindsNET.
+- (6/6/18) We've released a [pre-print](https://arxiv.org/abs/1806.01423) on our spiking neural networks simulation software!
 - (5/21/18) I'm interning at [HealthcareSource](http://www.healthcaresource.com/) as a data analysis intern for the summer.
 - (3/15/18) Two conference papers accepted to IJCNN 2018!
