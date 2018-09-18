@@ -1,0 +1,23 @@
+\begin{thebibliography}{1}
+
+\bibitem{2018arXiv180601423H}
+\FormatName{H. {Hazan}}, \FormatName{D.~J. {Saunders}}, \FormatName{H. {Khan}},
+  \FormatName{D.~T. {Sanghavi}}, \FormatName{H.~T. {Siegelmann}}, and
+  \FormatName{R. {Kozma}}.
+\newblock {BindsNET: A machine learning-oriented spiking neural networks
+  library in Python}.
+\newblock {\em ArXiv e-prints}, June 2018.
+
+\bibitem{hazan2018}
+\FormatName{H. Hazan}, \FormatName{D.~J. Saunders}, \FormatName{D.~T.
+  Sanghavi}, \FormatName{H.~T. Siegelmann}, and \FormatName{R. Kozma}.
+\newblock Unsupervised learning with self-organizing spiking neural networks.
+\newblock In {\em International Joint Conference on Neural Networks}, 2018.
+
+\bibitem{saunders2018}
+\FormatName{D.~J. Saunders}, \FormatName{H.~T. Siegelmann}, \FormatName{R.
+  Kozma}, and \FormatName{M. Ruszink\'{o}}.
+\newblock Unsupervised learning with self-organizing spiking neural networks.
+\newblock In {\em International Joint Conference on Neural Networks}, 2018.
+
+\end{thebibliography}

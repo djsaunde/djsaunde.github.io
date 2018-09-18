@@ -12,7 +12,10 @@ def main():
 		f = os.path.join(d, 'read.csv')
 
 		try:
-			df = pd.read_csv(f, parse_dates=['Read'])
+			print(f)
+			# df = pd.read_csv(f, parse_dates=['Read'])
+			df = pd.read_csv(f)
+			print(df)
 			df = df.sort_values(by='Read', axis='rows', ascending=False)
 			df.to_csv(f, index=False)
 		except pd.errors.EmptyDataError:
