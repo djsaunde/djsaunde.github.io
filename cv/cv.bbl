@@ -17,7 +17,8 @@
 \bibitem{saunders2018}
 \FormatName{D.~J. Saunders}, \FormatName{H.~T. Siegelmann}, \FormatName{R.
   Kozma}, and \FormatName{M. Ruszink\'{o}}.
-\newblock Unsupervised learning with self-organizing spiking neural networks.
+\newblock Stdp learning of image patches with convolutional spiking neural
+  networks.
 \newblock In {\em International Joint Conference on Neural Networks}, 2018.
 
 \end{thebibliography}
