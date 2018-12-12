@@ -1,12 +1,12 @@
 \begin{thebibliography}{1}
 
-\bibitem{hazanbindsnet2018}
+\bibitem{10.3389/fninf.2018.00089}
 \FormatName{H. Hazan}, \FormatName{D.~J. Saunders}, \FormatName{H. Khan},
-  \FormatName{D.~T. Sanghavi}, \FormatName{H.~T. Siegelmann}, and
-  \FormatName{R. Kozma}.
-\newblock {BindsNET}: A machine learning-oriented spiking neural networks
-  library in python.
-\newblock {\em Frontiers in Neuroinformatics}, 12, 2018.
+  \FormatName{D. Patel}, \FormatName{D.~T. Sanghavi}, \FormatName{H.~T.
+  Siegelmann}, and \FormatName{R. Kozma}.
+\newblock Bindsnet: A machine learning-oriented spiking neural networks library
+  in python.
+\newblock {\em Frontiers in Neuroinformatics}, 12:89, 2018.
 
 \bibitem{hazan2018}
 \FormatName{H. Hazan}, \FormatName{D.~J. Saunders}, \FormatName{D.~T.
