@@ -24,7 +24,7 @@ Fun facts:
 
 News:
 
-- (11/13/18) Our paper on our spiking neural networks simulation software, [BindsNET](https://github.com/Hananel-Hazan/bindsnet), was accepted to Frontiers in Neuroinformatics. Link available soon.
+- (11/13/18) Our paper ([link](https://www.frontiersin.org/articles/10.3389/fninf.2018.00089/full)) on our spiking neural networks simulation software, [BindsNET](https://github.com/Hananel-Hazan/bindsnet), was accepted to Frontiers in Neuroinformatics.
 - (9/17/18) I'll be attending the [PyTorch Developer Conference](https://pytorch.fbreg.com/) in San Francisco on October 2nd to present a [poster](https://djsaunde.github.io/files/BindsNET_PyTorch_conference_poster.pdf) on [BindsNET](https://github.com/Hananel-Hazan/bindsnet).
 - (6/6/18) We've released a [pre-print](https://arxiv.org/abs/1806.01423) on our spiking neural networks simulation software!
 - (5/21/18) I'm interning at [HealthcareSource](http://www.healthcaresource.com/) as a data analysis intern for the summer.
