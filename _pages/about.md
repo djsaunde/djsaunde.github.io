@@ -26,7 +26,7 @@ Fun facts:
 
 News:
 
-- (1/7/18) I started as a ML Engineer at [Fomoro AI](https://fomoro.com/).
+- (1/7/19) I started as a ML Engineer at [Fomoro AI](https://fomoro.com/).
 - (12/17/18) I finished the requirements for my masters degree program!
 - (11/13/18) Our paper ([link](https://www.frontiersin.org/articles/10.3389/fninf.2018.00089/full)) on our spiking neural networks simulation software, [BindsNET](https://github.com/Hananel-Hazan/bindsnet), was accepted to Frontiers in Neuroinformatics.
 - (9/17/18) I'll be attending the [PyTorch Developer Conference](https://pytorch.fbreg.com/) in San Francisco on October 2nd to present a [poster](https://djsaunde.github.io/files/BindsNET_PyTorch_conference_poster.pdf) on [BindsNET](https://github.com/Hananel-Hazan/bindsnet).
