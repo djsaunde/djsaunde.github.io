@@ -14,6 +14,20 @@
 \newblock Unsupervised learning with self-organizing spiking neural networks.
 \newblock In {\em International Joint Conference on Neural Networks}, 2018.
 
+\bibitem{DBLP:journals/corr/abs-1903-11012}
+\FormatName{D. Patel}, \FormatName{H. Hazan}, \FormatName{D.~J. Saunders},
+  \FormatName{H.~T. Siegelmann}, and \FormatName{R. Kozma}.
+\newblock Improved robustness of reinforcement learning policies upon
+  conversion to spiking neuronal network platforms applied to {ATARI} games.
+\newblock {\em CoRR}, abs/1903.11012, 2019.
+
+\bibitem{DBLP:journals/corr/abs-1904-06269}
+\FormatName{D.~J. Saunders}, \FormatName{D. Patel}, \FormatName{H. Hazan},
+  \FormatName{H.~T. Siegelmann}, and \FormatName{R. Kozma}.
+\newblock Locally connected spiking neural networks for unsupervised feature
+  learning.
+\newblock {\em CoRR}, abs/1904.06269, 2019.
+
 \bibitem{saunders2018}
 \FormatName{D.~J. Saunders}, \FormatName{H.~T. Siegelmann}, \FormatName{R.
   Kozma}, and \FormatName{M. Ruszink\'{o}}.
