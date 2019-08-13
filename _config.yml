@@ -80,11 +80,11 @@ analytics:
 author:
   name             : "Daniel J. Saunders"
   avatar           : "headshot.jpg"
-  bio              : "Computer science MS student at UMass Amherst"
-  location         : "Amherst, MA"
-  employer         : "BINDS Lab"
+  bio              : "Machine learning engineer"
+  location         : "Northampton, MA"
+  employer         : "Fomoro AI"
   googlescholar    : "https://scholar.google.com/citations?user=Wy-X_j4AAAAJ&hl=en" 
-  email            : "djsaunde@cs.umass.edu"
+  email            : "danjsaund@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
