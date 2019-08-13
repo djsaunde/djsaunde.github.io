@@ -1,6 +1,13 @@
 \begin{thebibliography}{1}
 
-\bibitem{10.3389/fninf.2018.00089}
+\bibitem{deBruynKops2019}
+\FormatName{S.~M. {de Bruyn Kops}}, \FormatName{D.~J. {Saunders}},
+  \FormatName{E.~A. {Rietman}}, and \FormatName{G.~D. {Portwood}}.
+\newblock {Unsupervised Machine Learning to Teach Fluid Dynamicists to Think in
+  15 Dimensions}.
+\newblock {\em arXiv e-prints}, page arXiv:1907.10035, Jul 2019.
+
+\bibitem{Hazan2018b}
 \FormatName{H. Hazan}, \FormatName{D.~J. Saunders}, \FormatName{H. Khan},
   \FormatName{D. Patel}, \FormatName{D.~T. Sanghavi}, \FormatName{H.~T.
   Siegelmann}, and \FormatName{R. Kozma}.
@@ -8,31 +15,44 @@
   in python.
 \newblock {\em Frontiers in Neuroinformatics}, 12:89, 2018.
 
-\bibitem{hazan2018}
+\bibitem{Hazan2018a}
 \FormatName{H. Hazan}, \FormatName{D.~J. Saunders}, \FormatName{D.~T.
   Sanghavi}, \FormatName{H.~T. Siegelmann}, and \FormatName{R. Kozma}.
 \newblock Unsupervised learning with self-organizing spiking neural networks.
 \newblock In {\em International Joint Conference on Neural Networks}, 2018.
 
-\bibitem{DBLP:journals/corr/abs-1903-11012}
+\bibitem{Hazan2019}
+\FormatName{H. Hazan}, \FormatName{D.~J. Saunders}, \FormatName{D.~T.
+  Sanghavi}, \FormatName{H.~T. Siegelmann}, and \FormatName{R. Kozma}.
+\newblock Lattice map spiking neural networks (lm-snns) for clustering and
+  classifying image data.
+\newblock {\em CoRR}, abs/1906.11826, 2019.
+
+\bibitem{Patel2019}
 \FormatName{D. Patel}, \FormatName{H. Hazan}, \FormatName{D.~J. Saunders},
   \FormatName{H.~T. Siegelmann}, and \FormatName{R. Kozma}.
 \newblock Improved robustness of reinforcement learning policies upon
   conversion to spiking neuronal network platforms applied to {ATARI} games.
 \newblock {\em CoRR}, abs/1903.11012, 2019.
 
-\bibitem{DBLP:journals/corr/abs-1904-06269}
+\bibitem{Saunders2019}
 \FormatName{D.~J. Saunders}, \FormatName{D. Patel}, \FormatName{H. Hazan},
   \FormatName{H.~T. Siegelmann}, and \FormatName{R. Kozma}.
 \newblock Locally connected spiking neural networks for unsupervised feature
   learning.
 \newblock {\em CoRR}, abs/1904.06269, 2019.
 
-\bibitem{saunders2018}
+\bibitem{Saunders2018}
 \FormatName{D.~J. Saunders}, \FormatName{H.~T. Siegelmann}, \FormatName{R.
   Kozma}, and \FormatName{M. Ruszink\'{o}}.
 \newblock Stdp learning of image patches with convolutional spiking neural
   networks.
 \newblock In {\em International Joint Conference on Neural Networks}, 2018.
+
+\bibitem{Wenke2019}
+\FormatName{S. Wenke}, \FormatName{D. Saunders}, \FormatName{M. Qiu}, and
+  \FormatName{J. Fleming}.
+\newblock Reasoning and generalization in {RL:} {A} tool use perspective.
+\newblock {\em CoRR}, abs/1907.02050, 2019.
 
 \end{thebibliography}
