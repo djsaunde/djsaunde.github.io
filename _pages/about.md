@@ -20,6 +20,7 @@ I have an Erd&ouml;s number of 2 (path: Paul Erd&ouml;s -> Mikl&oacute;s Ruszink
 
 News:
 
+- (9/5/19) With the BINDS lab, I've released a new [pre-print](https://arxiv.org/abs/1909.02549) on batched simulation of spiking neural networks in BindsNET!
 - (7/23/19) Along with fluid dynamics researchers at UMass Amherst, I've released a new [pre-print](https://arxiv.org/abs/1907.10035) on nonlinear dimensionality reduction of fluid simulation data with convolutional autoencoders.
 - (7/3/19) My co-workers at Fomoro AI and I have a new [pre-print](https://arxiv.org/abs/1907.02050) on bridging the gap between reinforcement learning and tool use research.
 - (4/12/19) With the BINDS lab, I've released a new [pre-print](https://arxiv.org/abs/1904.06269) that builds on our IJCNN conference paper, "STDP Learning of Image Patches with Convolutional Spiking Neural Networks."

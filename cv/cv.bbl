@@ -26,7 +26,8 @@
   Sanghavi}, \FormatName{H.~T. Siegelmann}, and \FormatName{R. Kozma}.
 \newblock Lattice map spiking neural networks (lm-snns) for clustering and
   classifying image data.
-\newblock {\em CoRR}, abs/1906.11826, 2019.
+\newblock {\em Annals of Mathematics and Artificial Intelligence}, pages 1 --
+  24, 2019.
 
 \bibitem{Patel2019}
 \FormatName{D. Patel}, \FormatName{H. Hazan}, \FormatName{D.~J. Saunders},
@@ -35,12 +36,12 @@
   conversion to spiking neuronal network platforms applied to {ATARI} games.
 \newblock {\em CoRR}, abs/1903.11012, 2019.
 
-\bibitem{Saunders2019}
+\bibitem{Saunders2019a}
 \FormatName{D.~J. Saunders}, \FormatName{D. Patel}, \FormatName{H. Hazan},
   \FormatName{H.~T. Siegelmann}, and \FormatName{R. Kozma}.
 \newblock Locally connected spiking neural networks for unsupervised feature
   learning.
-\newblock {\em CoRR}, abs/1904.06269, 2019.
+\newblock {\em Neural Networks}, 119:332 -- 340, 2019.
 
 \bibitem{Saunders2018}
 \FormatName{D.~J. Saunders}, \FormatName{H.~T. Siegelmann}, \FormatName{R.
@@ -48,6 +49,12 @@
 \newblock Stdp learning of image patches with convolutional spiking neural
   networks.
 \newblock In {\em International Joint Conference on Neural Networks}, 2018.
+
+\bibitem{Saunders2019b}
+\FormatName{D.~J. Saunders}, \FormatName{C. Sigrist}, \FormatName{K. Chaney},
+  \FormatName{R. Kozma}, and \FormatName{H.~T. Siegelmann}.
+\newblock Minibatch processing in spiking neural networks.
+\newblock {\em ArXiv}, abs/1909.02549, 2019.
 
 \bibitem{Wenke2019}
 \FormatName{S. Wenke}, \FormatName{D. Saunders}, \FormatName{M. Qiu}, and

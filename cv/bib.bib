@@ -1,4 +1,38 @@
 # JOURNAL ARTICLES
+@article{Saunders2019a,
+	title = "Locally connected spiking neural networks for unsupervised feature learning",
+	journal = "Neural Networks",
+	volume = "119",
+	pages = "332 - 340",
+	year = "2019",
+	issn = "0893-6080",
+	doi = "https://doi.org/10.1016/j.neunet.2019.08.016",
+	url = "http://www.sciencedirect.com/science/article/pii/S0893608019302333",
+	author = "Daniel J. Saunders and Devdhar Patel and Hananel Hazan and Hava T. Siegelmann and Robert Kozma",
+	keywords = "Spiking neural network, Machine learning, Spike-timing-dependent plasticity, BindsNET, Unsupervised learning, Image classification",
+	abstract = "In recent years, spiking neural networks (SNNs) have demonstrated great success in completing various machine learning tasks. We introduce a method for learning image features with locally connected layers in SNNs using a spike-timing-dependent plasticity (STDP) rule. In our approach, sub-networks compete via inhibitory interactions to learn features from different locations of the input space. These locally-connected SNNs (LC-SNNs) manifest key topological features of the spatial interaction of biological neurons. We explore a biologically inspired n-gram classification approach allowing parallel processing over various patches of the image space. We report the classification accuracy of simple two-layer LC-SNNs on two image datasets, which respectively match state-of-art performance and are the first results to date. LC-SNNs have the advantage of fast convergence to a dataset representation, and they require fewer learnable parameters than other SNN approaches with unsupervised learning. Robustness tests demonstrate that LC-SNNs exhibit graceful degradation of performance despite the random deletion of large numbers of synapses and neurons. Our results have been obtained using the BindsNET library, which allows efficient machine learning implementations of spiking neural networks."
+}
+
+@article{Hazan2019,
+	title={Lattice map spiking neural networks (LM-SNNs) for clustering and classifying image data},
+	author={Hananel Hazan and Daniel J. Saunders and Darpan T. Sanghavi and Hava T. Siegelmann and Robert Kozma},
+	journal={Annals of Mathematics and Artificial Intelligence},
+	year={2019},
+	pages={1 - 24}
+}
+
+@article{Patel2019,
+	title = "Improved robustness of reinforcement learning policies upon conversion to spiking neuronal network platforms applied to Atari Breakout game",
+	journal = "Neural Networks",
+	year = "2019",
+	issn = "0893-6080",
+	doi = "https://doi.org/10.1016/j.neunet.2019.08.009",
+	url = "http://www.sciencedirect.com/science/article/pii/S0893608019302266",
+	author = "Devdhar Patel and Hananel Hazan and Daniel J. Saunders and Hava T. Siegelmann and Robert Kozma",
+	keywords = "Spiking neural networks, Reinforcement learning, Deep learning, Robustness, Atari",
+	abstract = "Deep Reinforcement Learning (RL) demonstrates excellent performance on tasks that can be solved by trained policy. It plays a dominant role among cutting-edge machine learning approaches using multi-layer Neural networks (NNs). At the same time, Deep RL suffers from high sensitivity to noisy, incomplete, and misleading input data. Following biological intuition, we involve Spiking Neural Networks (SNNs) to address some deficiencies of deep RL solutions. Previous studies in image classification domain demonstrated that standard NNs (with ReLU nonlinearity) trained using supervised learning can be converted to SNNs with negligible deterioration in performance. In this paper, we extend those conversion results to the domain of Q-Learning NNs trained using RL. We provide a proof of principle of the conversion of standard NN to SNN. In addition, we show that the SNN has improved robustness to occlusion in the input image. Finally, we introduce results with converting full-scale Deep Q-network to SNN, paving the way for future research to robust Deep RL applications."
+}
+
 @ARTICLE{Hazan2018b,
 	AUTHOR={Hazan, Hananel and Saunders, Daniel J. and Khan, Hassaan and Patel, Devdhar and Sanghavi, Darpan T. and Siegelmann, Hava T. and Kozma, Robert},
 	TITLE={BindsNET: A Machine Learning-Oriented Spiking Neural Networks Library in Python},
@@ -13,62 +47,6 @@
 }
 
 # PREPRINTS
-@article{Saunders2019,
-	author    = {Daniel J. Saunders and
-	Devdhar Patel and
-	Hananel Hazan and
-	Hava T. Siegelmann and
-	Robert Kozma},
-	title     = {Locally Connected Spiking Neural Networks for Unsupervised Feature
-	Learning},
-	journal   = {CoRR},
-	volume    = {abs/1904.06269},
-	year      = {2019},
-	url       = {http://arxiv.org/abs/1904.06269},
-	archivePrefix = {arXiv},
-	eprint    = {1904.06269},
-	timestamp = {Thu, 25 Apr 2019 13:55:01 +0200},
-	biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1904-06269},
-	bibsource = {dblp computer science bibliography, https://dblp.org}
-}
-
-@article{Patel2019,
-	author    = {Devdhar Patel and
-	Hananel Hazan and
-	Daniel J. Saunders and
-	Hava T. Siegelmann and
-	Robert Kozma},
-	title     = {Improved robustness of reinforcement learning policies upon conversion
-	to spiking neuronal network platforms applied to {ATARI} games},
-	journal   = {CoRR},
-	volume    = {abs/1903.11012},
-	year      = {2019},
-	url       = {http://arxiv.org/abs/1903.11012},
-	archivePrefix = {arXiv},
-	eprint    = {1903.11012},
-	timestamp = {Tue, 02 Apr 2019 11:16:55 +0200},
-	biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1903-11012},
-	bibsource = {dblp computer science bibliography, https://dblp.org}
-}
-
-@article{Hazan2019,
-	author    = {Hananel Hazan and
-	Daniel J. Saunders and
-	Darpan T. Sanghavi and
-	Hava T. Siegelmann and
-	Robert Kozma},
-	title     = {Lattice Map Spiking Neural Networks (LM-SNNs) for Clustering and Classifying
-	Image Data},
-	journal   = {CoRR},
-	volume    = {abs/1906.11826},
-	year      = {2019},
-	url       = {http://arxiv.org/abs/1906.11826},
-	archivePrefix = {arXiv},
-	eprint    = {1906.11826},
-	timestamp = {Mon, 01 Jul 2019 13:00:07 +0200},
-	biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1906-11826},
-	bibsource = {dblp computer science bibliography, https://dblp.org}
-}
 
 @article{Wenke2019,
   author    = {Sam Wenke and
@@ -102,6 +80,14 @@ archivePrefix = {arXiv},
  primaryClass = {physics.flu-dyn},
        adsurl = {https://ui.adsabs.harvard.edu/abs/2019arXiv190710035D},
       adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{Saunders2019b,
+	title={Minibatch Processing in Spiking Neural Networks},
+	author={Daniel J. Saunders and Cooper Sigrist and Kenneth Chaney and Robert Kozma and Hava T. Siegelmann},
+	journal={ArXiv},
+	year={2019},
+	volume={abs/1909.02549}
 }
 
 
