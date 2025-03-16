@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Dan Saunders</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Header -->
+    <header class="flex justify-between items-center py-6">
+      <div>
+        <a href="index.html" class="text-xl font-bold">Dan Saunders</a>
+      </div>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="index.html" class="hover:text-indigo-600 transition-colors">Home</a></li>
+          <li><a href="about.html" class="hover:text-indigo-600 transition-colors">About</a></li>
+          <li><a href="projects.html" class="hover:text-indigo-600 transition-colors font-medium">Projects</a></li>
+          <li><a href="blog.html" class="hover:text-indigo-600 transition-colors">Blog</a></li>
+          <li><a href="https://scholar.google.com/citations?user=Wy-X_j4AAAAJ" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-600 transition-colors">Publications</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="py-10">
+      <div class="space-y-8">
+        <div>
+          <h1 class="text-3xl font-bold">Projects</h1>
+          <p class="mt-2 text-gray-600">
+            Here's a collection of my open-source contributions and technical projects.
+          </p>
+        </div>
+
+        <!-- Axolotl -->
+        <div class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
+          <h2 class="text-xl font-bold mb-2">Axolotl</h2>
+          <p class="mb-4 text-gray-600">
+            Implemented optimizations and algorithms for Axolotl, a popular open-source LLM post-training library, improving model performance and efficiency.
+          </p>
+          
+          <div class="mb-4 flex flex-wrap gap-2">
+            <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm">Python</span>
+            <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm">LLMs</span>
+            <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm">PyTorch</span>
+            <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm">Open Source</span>
+          </div>
+          
+          <a 
+            href="https://github.com/axolotl-ai-cloud/axolotl"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center text-indigo-600 hover:underline"
+          >
+            View Axolotl on GitHub →
+          </a>
+        </div>
+
+        <div class="grid grid-cols-1 gap-8">
+          <!-- BindsNET -->
+          <div class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
+            <h2 class="text-xl font-bold mb-2">BindsNET</h2>
+            <p class="mb-4 text-gray-600">
+              A PyTorch-based spiking neural networks simulation library, specifically designed for machine learning applications. It allows researchers to quickly build complex spiking network models and train them using various learning rules.
+            </p>
+            
+            <div class="mb-4 flex flex-wrap gap-2">
+              <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm">Python</span>
+              <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm">PyTorch</span>
+              <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm">Neural Networks</span>
+              <span class="px-3 py-1 bg-indigo-100 text-indigo-800 rounded-full text-sm">Machine Learning</span>
+            </div>
+            
+            <a 
+              href="https://github.com/Hananel-Hazan/bindsnet"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center text-indigo-600 hover:underline"
+            >
+              GitHub Repository →
+            </a>
+          </div>
+
+          <!-- LM-SNN -->
+          <div class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
+            <h2 class="text-xl font-bold mb-2">LM-SNN</h2>
+            <p class="mb-4 text-gray-600">
+              Unsupervised handwritten digit classification using spiking neural networks and spike-timing-dependent plasticity. Built on Peter Diehl's research work at ETH Zurich, with convolutional network extensions developed at UMass Amherst's BINDS laboratory.
+            </p>
+            
+            <a 
+              href="https://github.com/djsaunde/lm-snn"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center text-indigo-600 hover:underline"
+            >
+              GitHub Repository →
+            </a>
+          </div>
+
+          <!-- AWR -->
+          <div class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
+            <h2 class="text-xl font-bold mb-2">AWR (Advantage-Weighted Regression)</h2>
+            <p class="mb-4 text-gray-600">
+              Reference implementation of Advantage-Weighted Regression with TensorFlow 2.0 and Pyoneer. Based on the paper by Peng et al., providing a simple and scalable approach to off-policy reinforcement learning.
+            </p>
+            
+            <a 
+              href="https://github.com/fomorians-oss/awr"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center text-indigo-600 hover:underline"
+            >
+              GitHub Repository →
+            </a>
+          </div>
+        </div>
+
+        <div class="mt-12 p-6 bg-gray-100 rounded-lg">
+          <h2 class="text-xl font-bold mb-4">Open Source Contributions</h2>
+          <p class="mb-6">
+            If you're interested in collaborating, please reach out!
+          </p>
+          <a 
+            href="https://github.com/djsaunde"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors"
+          >
+            View My GitHub Profile
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t border-gray-200">
+      <div class="flex justify-between items-center">
+        <div class="text-sm text-gray-500">
+          &copy; <span id="current-year"></span> Dan Saunders
+        </div>
+        <div class="flex space-x-4">
+          <a href="https://github.com/djsaunde" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-gray-700">GitHub</a>
+          <a href="https://medium.com/@danjsaund/" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-gray-700">Medium</a>
+          <a href="mailto:danjsaund@gmail.com" class="text-gray-500 hover:text-gray-700">Email</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Set the current year in the footer
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
