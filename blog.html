@@ -7,48 +7,45 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
-<body class="bg-gray-50 text-gray-900">
-  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-    <!-- Header -->
-    <header class="flex justify-between items-center py-6">
+<body>
+  <div class="max-w-5xl">
+    <!-- Terminal Header -->
+    <header>
       <div>
-        <a href="index.html" class="text-xl font-bold">Dan Saunders</a>
+        <a href="index.html">dan@terminal:~$</a>
       </div>
       <nav>
-        <ul class="flex space-x-6">
-          <li><a href="index.html" class="hover:text-indigo-600 transition-colors">Home</a></li>
-          <li><a href="about.html" class="hover:text-indigo-600 transition-colors">About</a></li>
-          <li><a href="projects.html" class="hover:text-indigo-600 transition-colors">Projects</a></li>
-          <li><a href="blog.html" class="hover:text-indigo-600 transition-colors font-medium">Blog</a></li>
-          <li><a href="https://scholar.google.com/citations?user=Wy-X_j4AAAAJ" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-600 transition-colors">Publications</a></li>
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="blog.html">blog</a></li>
+          <li><a href="https://scholar.google.com/citations?user=Wy-X_j4AAAAJ" target="_blank" rel="noopener noreferrer">publications</a></li>
         </ul>
       </nav>
     </header>
 
-    <!-- Main Content -->
-    <main class="py-10">
-      <div class="space-y-8">
-        <div>
-          <h1 class="text-3xl font-bold">Blog</h1>
-          <p class="mt-2 text-gray-600">
-            Coming soon!
-          </p>
-        </div>
-      </div>
+    <!-- Terminal Content -->
+    <main>
+      <section>
+        <h1>ls -la /blog/</h1>
+        <p>
+          Coming soon!
+        </p>
+      </section>
     </main>
 
-    <!-- Footer -->
-    <footer class="py-8 border-t border-gray-200">
-      <div class="flex justify-between items-center">
-        <div class="text-sm text-gray-500">
-          &copy; <span id="current-year"></span> Dan Saunders
-        </div>
-        <div class="flex space-x-4">
-          <a href="https://github.com/djsaunde" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-gray-700">GitHub</a>
-          <a href="https://medium.com/@danjsaund/" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-gray-700">Medium</a>
-          <a href="mailto:danjsaund@gmail.com" class="text-gray-500 hover:text-gray-700">Email</a>
-        </div>
-      </div>
+    <!-- Terminal Footer -->
+    <footer>
+      <p>
+        $ echo "contact info"<br>
+        <a href="https://github.com/djsaunde" target="_blank" rel="noopener noreferrer">github</a> | 
+        <a href="https://medium.com/@danjsaund/" target="_blank" rel="noopener noreferrer">medium</a> | 
+        <a href="mailto:danjsaund@gmail.com">email</a>
+      </p>
+      <p>
+        $ date<br>
+        &copy; <span id="current-year"></span> dan_saunders
+      </p>
     </footer>
   </div>
 

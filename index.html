@@ -7,113 +7,50 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
-<body class="bg-gray-50 text-gray-900">
-  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-    <!-- Header -->
-    <header class="flex justify-between items-center py-6">
+<body>
+  <div class="max-w-5xl">
+    <!-- Terminal Header -->
+    <header>
       <div>
-        <a href="index.html" class="text-xl font-bold">Dan Saunders</a>
+        <a href="index.html">dan@terminal:~$</a>
       </div>
       <nav>
-        <ul class="flex space-x-6">
-          <li><a href="index.html" class="hover:text-indigo-600 transition-colors">Home</a></li>
-          <li><a href="about.html" class="hover:text-indigo-600 transition-colors">About</a></li>
-          <li><a href="projects.html" class="hover:text-indigo-600 transition-colors">Projects</a></li>
-          <li><a href="blog.html" class="hover:text-indigo-600 transition-colors">Blog</a></li>
-          <li><a href="https://scholar.google.com/citations?user=Wy-X_j4AAAAJ" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-600 transition-colors">Publications</a></li>
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="blog.html">blog</a></li>
+          <li><a href="https://scholar.google.com/citations?user=Wy-X_j4AAAAJ" target="_blank" rel="noopener noreferrer">publications</a></li>
         </ul>
       </nav>
     </header>
 
-    <!-- Main Content -->
-    <main class="py-10">
-      <!-- Hero Section -->
-      <section class="py-12">
-        <div class="flex flex-col md:flex-row items-center gap-8">
-          <div class="md:w-2/3 space-y-6">
-            <h1 class="text-4xl font-bold">Hi, I'm Dan!</h1>
-            <p class="text-lg text-gray-600">
-              ML engineer at <a href="https://axolotl.ai/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">Axolotl AI</a> contributing to open source LLM post-training tools. Previously at AWS, Sensor Tower, and Fomoro AI.
-            </p>
-            <div class="flex gap-4">
-              <a href="about.html" class="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors">More About Me</a>
-              <a href="files/resume.pdf" target="_blank" rel="noopener noreferrer" class="px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-100 transition-colors">View Resume</a>
-            </div>
-          </div>
-          <div class="md:w-1/3">
-            <div class="w-64 h-64 mx-auto rounded-full overflow-hidden">
-              <img src="img/headshot.jpg" alt="Dan Saunders" class="object-cover w-full h-full">
-            </div>
-          </div>
-        </div>
+    <!-- Terminal Content -->
+    <main>
+      <!-- Introduction -->
+      <section>
+        <h1>whoami</h1>
+        <p>
+          ML engineer at <a href="https://axolotl.ai/" target="_blank" rel="noopener noreferrer">axolotl.ai</a> working on open source LLM post-training tools. 
+          Previously at aws, sensor_tower, fomoro_ai.
+        </p>
       </section>
 
-      <!-- Featured Projects -->
-      <section class="py-12">
-        <div class="flex justify-between items-center mb-6">
-          <h2 class="text-2xl font-bold">Featured Projects</h2>
-          <a href="projects.html" class="text-indigo-600 hover:underline">View All</a>
-        </div>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
-            <h3 class="text-xl font-semibold mb-2">Axolotl</h3>
-            <p class="text-gray-600 mb-4">
-              Open-source LLM fine-tuning framework with implementation of optimizations and algorithms for improving model performance and efficiency.
-            </p>
-            <a href="https://github.com/axolotl-ai-cloud/axolotl" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">
-              GitHub Repository →
-            </a>
-          </div>
-          
-          <div class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
-            <h3 class="text-xl font-semibold mb-2">BindsNET</h3>
-            <p class="text-gray-600 mb-4">
-              A PyTorch-based framework for training and simulating spiking neural networks with biologically-inspired learning rules.
-            </p>
-            <a href="https://github.com/bindsnet/bindsnet" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">
-              GitHub Repository →
-            </a>
-          </div>
-        </div>
-      </section>
-
-      <!-- Publications -->
-      <section class="py-12">
-        <div class="mb-6">
-          <h2 class="text-2xl font-bold">Publications</h2>
-        </div>
-        
-        <div class="p-6 bg-white rounded-lg shadow-sm border border-gray-200">
-          <a 
-            href="https://scholar.google.com/citations?user=Wy-X_j4AAAAJ" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            class="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors inline-flex items-center"
-          >
-            View Publications on Google Scholar
-          </a>
-        </div>
-      </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="py-8 border-t border-gray-200">
-      <div class="flex justify-between items-center">
-        <div class="text-sm text-gray-500">
-          &copy; <span id="current-year"></span> Dan Saunders
-        </div>
-        <div class="flex space-x-4">
-          <a href="https://github.com/djsaunde" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-gray-700">GitHub</a>
-          <a href="https://medium.com/@danjsaund/" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-gray-700">Medium</a>
-          <a href="mailto:danjsaund@gmail.com" class="text-gray-500 hover:text-gray-700">Email</a>
-        </div>
-      </div>
+    <!-- Terminal Footer -->
+    <footer>
+      <p>
+        $ echo "contact info"<br>
+        <a href="https://github.com/djsaunde" target="_blank" rel="noopener noreferrer">github</a> | 
+        <a href="https://medium.com/@danjsaund/" target="_blank" rel="noopener noreferrer">medium</a> | 
+        <a href="mailto:danjsaund@gmail.com">email</a>
+      </p>
+      <p>
+        $ date<br>
+        &copy; <span id="current-year"></span> dan_saunders
+      </p>
     </footer>
   </div>
 
   <script>
-    // Set the current year in the footer
     document.getElementById('current-year').textContent = new Date().getFullYear();
   </script>
 </body>

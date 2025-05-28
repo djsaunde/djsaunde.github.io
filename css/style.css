@@ -1,62 +1,181 @@
-/* Custom styles for the website */
+/* Terminal-style website */
 
-/* Smooth scrolling */
+/* Base terminal styling */
 html {
   scroll-behavior: smooth;
 }
 
-/* Base styles */
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  line-height: 1.6;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  line-height: 1.4;
+  background: #0a0a0a;
+  color: #00ff00;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
 }
 
-/* Link hover animations */
+/* Terminal container */
+.max-w-5xl {
+  background: #000000;
+  border: 2px solid #333333;
+  border-radius: 0;
+  box-shadow: none;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+/* Terminal header spacing */
+header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Terminal text styling */
+h1, h2, h3 {
+  color: #00ff00;
+  font-weight: normal;
+  margin: 0 0 10px 0;
+}
+
+h1::before {
+  content: "$ ";
+  color: #ffffff;
+}
+
+h2::before {
+  content: "$ ";
+  color: #ffffff;
+}
+
+h3::before {
+  content: "";
+  color: #00ffff;
+}
+
+p {
+  color: #cccccc;
+  margin: 0 0 15px 0;
+}
+
+/* Terminal links */
 a {
-  transition: all 0.2s ease-in-out;
+  color: #00ffff;
+  text-decoration: none;
+  transition: color 0.1s;
 }
 
-/* Image hover effects */
+a:hover {
+  color: #ffffff;
+  background: #333333;
+}
+
+a:visited {
+  color: #ff00ff;
+}
+
+/* Remove all fancy styling */
 img {
-  transition: transform 0.3s ease;
+  border: 1px solid #333333;
+  transition: none;
+  box-shadow: none;
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 img:hover {
-  transform: scale(1.02);
+  transform: none;
+  border-color: #00ff00;
 }
 
-/* Customized focus styles */
+/* Terminal buttons */
+.custom-btn {
+  background: #000000;
+  border: 1px solid #00ff00;
+  color: #00ff00;
+  padding: 8px 16px;
+  font-family: inherit;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.1s;
+}
+
+.custom-btn:hover {
+  background: #00ff00;
+  color: #000000;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Terminal project cards */
+.project-card {
+  border: 1px solid #333333;
+  background: #111111;
+  padding: 15px;
+  margin: 10px 0;
+  transition: border-color 0.1s;
+}
+
+.project-card:hover {
+  border-color: #00ff00;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Terminal navigation */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav li::before {
+  content: "[";
+  color: #ffffff;
+}
+
+nav li::after {
+  content: "]";
+  color: #ffffff;
+}
+
+/* Terminal footer */
+footer {
+  border-top: 1px solid #333333;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+/* Terminal focus */
 *:focus {
-  outline: 2px solid rgba(79, 70, 229, 0.5);
+  outline: 1px dashed #00ff00;
   outline-offset: 2px;
 }
 
-/* Custom button styles */
-.custom-btn {
-  position: relative;
-  overflow: hidden;
+/* Terminal scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
 }
 
-.custom-btn::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.1);
-  transform: translateX(-100%);
-  transition: transform 0.3s ease;
+::-webkit-scrollbar-track {
+  background: #000000;
 }
 
-.custom-btn:hover::after {
-  transform: translateX(0);
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border: 1px solid #00ff00;
 }
 
-/* Dark mode media query */
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #1a202c;
-    color: #f7fafc;
-  }
+::-webkit-scrollbar-thumb:hover {
+  background: #00ff00;
 }
