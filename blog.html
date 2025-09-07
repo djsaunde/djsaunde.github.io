@@ -2,39 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; url=writing.html">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog | Dan Saunders</title>
+  <title>Blog | Redirecting…</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
   <div class="max-w-5xl">
-    <!-- Terminal Header -->
     <header>
       <div>
         <a href="index.html">dan@terminal:~$</a>
       </div>
       <nav>
         <ul>
-          <li><a href="index.html">home</a></li>
-          <li><a href="about.html">about</a></li>
-          <li><a href="blog.html">blog</a></li>
+          <li><a href="index.html">about</a></li>
+          <li><a href="writing.html">writing</a></li>
           <li><a href="https://scholar.google.com/citations?user=Wy-X_j4AAAAJ" target="_blank" rel="noopener noreferrer">publications</a></li>
         </ul>
       </nav>
     </header>
-
-    <!-- Terminal Content -->
     <main>
       <section>
-        <h1>ls -la /blog/</h1>
-        <p>
-          Coming soon!
-        </p>
+        <h1>mv blog writing</h1>
+        <p>Redirecting to writing… If you are not redirected, <a href="writing.html">click here</a>.</p>
       </section>
     </main>
-
-    <!-- Terminal Footer -->
     <footer>
       <p>
         $ echo "contact info"<br>
@@ -48,9 +41,7 @@
       </p>
     </footer>
   </div>
-
   <script>
-    // Set the current year in the footer
     document.getElementById('current-year').textContent = new Date().getFullYear();
   </script>
 </body>

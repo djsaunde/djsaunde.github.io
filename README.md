@@ -8,13 +8,39 @@ This repository contains a clean, modern personal website built with HTML, CSS, 
 
 ## Site Structure
 
-- `index.html` - Homepage with a brief introduction and links to sections
-- `about.html` - Detailed information about me, education, skills, and news
-- `projects.html` - Showcase of my projects with descriptions and links
-- `publications.html` - Academic publications with abstracts and download links
+- `index.html` - Homepage (About)
+- `writing.html` - Links to writing across the web
+- `about.html` - Redirects to `index.html`
+- `blog.html` - Redirects to `writing.html`
 - `css/` - Stylesheets for the website
 - `img/` - Images used throughout the site
-- `files/` - PDFs and other downloadable content
+- `files/` - Static assets (e.g., JSON, PDFs)
+
+### Writing list
+
+The `writing.html` page renders a chronological list from `files/writing.json`.
+
+Add entries in this format (newest entries first or unsorted — the page will sort by `date` descending):
+
+```
+[
+  {
+    "title": "Post title",
+    "url": "https://medium.com/@danjsaund/...",
+    "date": "2024-08-15" // ISO 8601 (YYYY-MM-DD)
+  },
+  {
+    "title": "Another post",
+    "url": "https://huggingface.co/blog/...",
+    "date": "2024-05-02"
+  }
+]
+```
+
+Notes:
+- `date` is optional but recommended for proper sorting.
+- `title` falls back to the URL if omitted.
+- You can mix links from Medium, Hugging Face, or anywhere.
 
 ## Local Development
 

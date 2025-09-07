@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Writing | Dan Saunders</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="max-w-5xl">
+    <!-- Terminal Header -->
+    <header>
+      <div>
+        <a href="index.html">dan@terminal:~$</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">about</a></li>
+          <li><a href="writing.html">writing</a></li>
+          <li><a href="https://scholar.google.com/citations?user=Wy-X_j4AAAAJ" target="_blank" rel="noopener noreferrer">publications</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Terminal Content -->
+    <main>
+      <section>
+        <h1>ls -la /writing/</h1>
+        <ul id="writing-list">
+          <li>2025-08-12 — <a href="https://huggingface.co/blog/accelerate-nd-parallel" target="_blank" rel="noopener noreferrer">Accelerate ND-Parallel: A guide to Efficient Multi-GPU Training</a> [huggingface.co]</li>
+          <li>2025-04-04 — <a href="https://huggingface.co/blog/axolotl-ai-co/long-context-with-sequence-parallelism-in-axolotl" target="_blank" rel="noopener noreferrer">Enabling Long Context Training with Sequence Parallelism in Axolotl</a> [huggingface.co]</li>
+          <li>2020-03-05 — <a href="https://medium.com/@danjsaund/book-review-the-feeling-of-life-itself-25078b3c27a9" target="_blank" rel="noopener noreferrer">Book Review: “The Feeling of Life Itself”</a> [medium.com]</li>
+          <li>2019-04-23 — <a href="https://medium.com/@danjsaund/book-review-reinforcement-learning-an-introduction-7d08cf15d263" target="_blank" rel="noopener noreferrer">Book Review—Reinforcement Learning: An Introduction</a> [medium.com]</li>
+          <li>2018-12-31 — <a href="https://medium.com/@danjsaund/book-review-the-book-of-why-24aee7b71697" target="_blank" rel="noopener noreferrer">Book Review: The Book of Why</a> [medium.com]</li>
+          <li>2018-09-23 — <a href="https://medium.com/@danjsaund/notes-on-supervised-learning-in-spiking-neural-networks-with-force-training-f5d6c9fbb4d" target="_blank" rel="noopener noreferrer">Notes on “Supervised learning in spiking neural networks with FORCE training”</a> [medium.com]</li>
+          <li>2018-08-22 — <a href="https://medium.com/@danjsaund/book-review-reinventing-discovery-the-new-era-of-networked-science-7ceb6ba3c8da" target="_blank" rel="noopener noreferrer">Book review: “Reinventing Discovery: The New Era of Networked Science”</a> [medium.com]</li>
+          <li>2018-08-13 — <a href="https://medium.com/@danjsaund/book-review-theoretical-neuroscience-computational-and-mathematical-modeling-of-neural-systems-d794466b6559" target="_blank" rel="noopener noreferrer">Book Review: “Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems”</a> [medium.com]</li>
+          <li>2018-07-30 — <a href="https://medium.com/@danjsaund/notes-on-task-driven-convolutional-recurrent-models-of-the-visual-system-d259ad319ac6" target="_blank" rel="noopener noreferrer">Notes on “ Task-Driven Convolutional Recurrent Models of the Visual System”</a> [medium.com]</li>
+          <li>2018-06-22 — <a href="https://medium.com/@danjsaund/book-review-computer-age-statistical-inference-195a71ee78bb" target="_blank" rel="noopener noreferrer">Book Review: Computer Age Statistical Inference</a> [medium.com]</li>
+          <li>2018-06-19 — <a href="https://medium.com/@danjsaund/some-thoughts-on-writing-5d836b219a14" target="_blank" rel="noopener noreferrer">Some thoughts on writing</a> [medium.com]</li>
+          <li>2018-06-06 — <a href="https://medium.com/@danjsaund/book-review-deep-learning-textbook-8160308ceee6" target="_blank" rel="noopener noreferrer">Book Review: Deep Learning textbook</a> [medium.com]</li>
+        </ul>
+        <p id="writing-empty" style="display:none;">No entries yet. Check my <a href="https://medium.com/@danjsaund" target="_blank" rel="noopener noreferrer">Medium</a> and <a href="https://huggingface.co/djsaunde/activity/articles" target="_blank" rel="noopener noreferrer">Hugging Face</a>.</p>
+      </section>
+    </main>
+
+    <!-- Terminal Footer -->
+    <footer>
+      <p>
+        $ echo "contact info"<br>
+        <a href="https://github.com/djsaunde" target="_blank" rel="noopener noreferrer">github</a> | 
+        <a href="https://medium.com/@danjsaund/" target="_blank" rel="noopener noreferrer">medium</a> | 
+        <a href="mailto:danjsaund@gmail.com">email</a>
+      </p>
+      <p>
+        $ date<br>
+        &copy; <span id="current-year"></span> dan_saunders
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+    // If list is empty (no static items), fetch JSON and render
+    if (document.querySelectorAll('#writing-list li').length === 0) {
+      fetch('files/writing.json')
+        .then(function(res) { return res.json(); })
+        .then(function(items) {
+          if (!Array.isArray(items) || items.length === 0) {
+            document.getElementById('writing-empty').style.display = 'block';
+            return;
+          }
+          // Normalize and sort by date desc if present
+          items.sort(function(a, b) {
+            var da = a.date ? Date.parse(a.date) : 0;
+            var db = b.date ? Date.parse(b.date) : 0;
+            return db - da;
+          });
+          var list = document.getElementById('writing-list');
+          items.forEach(function(item) {
+            var li = document.createElement('li');
+            var date = item.date ? new Date(item.date).toISOString().slice(0,10) + ' — ' : '';
+            var url = item.url || '#';
+            var title = item.title || url;
+            var source = '';
+            try { source = new URL(url).hostname.replace('www.', ''); } catch(e) {}
+            li.innerHTML = date + '<a href="' + url + '" target="_blank" rel="noopener noreferrer">' + title + '</a>' + (source ? ' [' + source + ']' : '');
+            list.appendChild(li);
+          });
+        })
+        .catch(function() {
+          document.getElementById('writing-empty').style.display = 'block';
+        });
+    }
+  </script>
+</body>
+</html>

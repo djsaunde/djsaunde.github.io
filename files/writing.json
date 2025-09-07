@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Book Review: \u201cThe Feeling of Life Itself\u201d",
+    "url": "https://medium.com/@danjsaund/book-review-the-feeling-of-life-itself-25078b3c27a9",
+    "date": "2020-03-05"
+  },
+  {
+    "title": "Book Review\u200a\u2014\u200aReinforcement Learning: An Introduction",
+    "url": "https://medium.com/@danjsaund/book-review-reinforcement-learning-an-introduction-7d08cf15d263",
+    "date": "2019-04-23"
+  },
+  {
+    "title": "Book Review: The Book of Why",
+    "url": "https://medium.com/@danjsaund/book-review-the-book-of-why-24aee7b71697",
+    "date": "2018-12-31"
+  },
+  {
+    "title": "Notes on \u201cSupervised learning in spiking neural networks with FORCE training\u201d",
+    "url": "https://medium.com/@danjsaund/notes-on-supervised-learning-in-spiking-neural-networks-with-force-training-f5d6c9fbb4d",
+    "date": "2018-09-23"
+  },
+  {
+    "title": "Book review: \u201cReinventing Discovery: The New Era of Networked Science\u201d",
+    "url": "https://medium.com/@danjsaund/book-review-reinventing-discovery-the-new-era-of-networked-science-7ceb6ba3c8da",
+    "date": "2018-08-22"
+  },
+  {
+    "title": "Book Review: \u201cTheoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems\u201d",
+    "url": "https://medium.com/@danjsaund/book-review-theoretical-neuroscience-computational-and-mathematical-modeling-of-neural-systems-d794466b6559",
+    "date": "2018-08-13"
+  },
+  {
+    "title": "Notes on \u201c Task-Driven Convolutional Recurrent Models of the Visual System\u201d",
+    "url": "https://medium.com/@danjsaund/notes-on-task-driven-convolutional-recurrent-models-of-the-visual-system-d259ad319ac6",
+    "date": "2018-07-30"
+  },
+  {
+    "title": "Book Review: Computer Age Statistical Inference",
+    "url": "https://medium.com/@danjsaund/book-review-computer-age-statistical-inference-195a71ee78bb",
+    "date": "2018-06-22"
+  },
+  {
+    "title": "Some thoughts on writing",
+    "url": "https://medium.com/@danjsaund/some-thoughts-on-writing-5d836b219a14",
+    "date": "2018-06-19"
+  },
+  {
+    "title": "Book Review: Deep Learning textbook",
+    "url": "https://medium.com/@danjsaund/book-review-deep-learning-textbook-8160308ceee6",
+    "date": "2018-06-06"
+  },
+  {
+    "title": "Accelerate ND-Parallel: A guide to Efficient Multi-GPU Training",
+    "url": "https://huggingface.co/blog/accelerate-nd-parallel",
+    "date": "2025-08-12"
+  },
+  {
+    "title": "Enabling Long Context Training with Sequence Parallelism in Axolotl",
+    "url": "https://huggingface.co/blog/axolotl-ai-co/long-context-with-sequence-parallelism-in-axolotl",
+    "date": null
+  }
+]
